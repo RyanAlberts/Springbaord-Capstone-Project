@@ -21,7 +21,7 @@ The result is that retailers with lean, adaptive supply chains will win. The imp
 
 	Instacart Kaggle Competition: 
 
-It wasn’t accidental that I mentioned Whole Foods above. Instacart is an online grocery and delivery app. Instacart’s shopping experience is driven by data scientists that curate the products that you see. The current $20 billion Americans spend at online groceries represents a meager 2.5% of the estimated $800 billion US grocery market, where perishable goods make predicting consumer buying habits a matter of life or death (figuratively, except for the produce). Demand Forecasting being a cornerstone of Supply Chain Management (SCM), I see this challenge as an opportunity to explore the domains that have driven my career thus far – eCommerce and SCM – through the lens of data science. 
+Instacart is an online grocery and delivery app. Instacart’s shopping experience is driven by data scientists that curate the products that you see. The current $20 billion Americans spend at online groceries represents a meager 2.5% of the estimated $800 billion US grocery market, where perishable goods make predicting consumer buying habits a matter of life or death (figuratively, except for the produce). Demand Forecasting being a cornerstone of Supply Chain Management (SCM), I see this challenge as an opportunity to explore the domains that have driven my career thus far – eCommerce and SCM – through the lens of data science. 
 
 Please consult the competition website for more details:
 [Instacart Market Basket Analysis](https://www.kaggle.com/c/instacart-market-basket-analysis)
