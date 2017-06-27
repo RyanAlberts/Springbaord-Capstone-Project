@@ -48,9 +48,7 @@ The ability to forecast demand, even if the resulting efficacy is ever-so-slight
 
 	Methodology:
 	
-The Instacart team has provided substantial context for the dataset on their blog (e.g. ice-cream products represent 24 of the 25 top products bought late at night):
-	
-[Instacart Blog](https://tech.instacart.com/3-million-instacart-orders-open-sourced-d40d29ead6f2)
+The Instacart team has provided substantial context for the dataset on their blog (e.g. ice-cream products represent 24 of the 25 top products bought late at night): [Instacart Competition Blog Post](https://tech.instacart.com/3-million-instacart-orders-open-sourced-d40d29ead6f2)
 	
 One of the most compelling aspects of this competition vis-à-vis Springboard’s Capstone Project is that the data has already been wrangled and is relatively clean, which allows me to jump into Exploratory Data Analysis. I intend to use pandas and numpy for analytics, and matplotlib for visualization (potentially Seaborn or Bokeh – I’d like to learn Bokeh in this process). I will also look into XGBoost (which Instacart uses in production) and Keras for machine learning. I will likely make use of scikit-learn for machine learning also. 
 
