@@ -78,4 +78,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ### Acknowledgments
 
-* Kaggle Community
+* Instacart, for their competition and dataset
+* Kaggle Community, for their wealth of expertise and guidance
