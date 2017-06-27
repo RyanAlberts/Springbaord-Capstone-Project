@@ -10,10 +10,6 @@ Included below is a brief overview of the project and components.
 
 June 19, 2017
 
-
-Attn:
-Springboard
-New York, NY
  
  
 	Introduction: 
