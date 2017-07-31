@@ -57,7 +57,8 @@ I created three notebooks with my initial findings, listed below. The notebooks 
 	
 	i.	https://github.com/RyanAlberts/Springbaord-Capstone-Project/blob/master/Instacart_EDA_DataStory_Engagement.ipynb
 	
-       Deep Dive – Exploring the Data: 
+
+        Deep Dive – Exploring the Data: 
 	
 I did a deep-dive into user_id 1 in the Engagement notebook, which served a s the basis for the ‘EDA_FeatureSet’ Notebook. The data revealed some interesting trends. For any given customer, there is often a long-tail of products that are never reordered, and a small but formidable group of products that are consistently reordered. There was also a strong correlation between the ‘days_since_prior_order’ variable and the basket size and assortment of any particular order. The ‘EDA_FeatureSet’ Notebook provides the basis for a lot of feature engineering that I later developed for the machine-learning algorithms, and provided a cauldron for improving my skills with grouping, merging, indexing, and applying methods to various pd.DataFrame and Series objects. 
 
