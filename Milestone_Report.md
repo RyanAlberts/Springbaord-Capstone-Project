@@ -14,7 +14,9 @@ The result is that retailers with lean, adaptive supply chains will win. The imp
 
         Instacart Kaggle Competition: 
 Goal: Predict the products that will be in each user’s next order. 
+
 Evaluation Metric: Mean F1 Score
+
 Data: Over 3M orders from 206k customers
 
 Instacart is an online grocery and delivery app. Instacart’s shopping experience is driven by data scientists that curate the products that you see. The current $20 billion Americans spend at online groceries represents a meager 2.5% of the estimated $800 billion US grocery market, where perishable goods make predicting consumer buying habits a matter of life or death (figuratively, except for the produce). 
