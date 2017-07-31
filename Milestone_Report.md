@@ -9,14 +9,17 @@ New York, NY
  
 	Introduction: 
 Walmart’s acquisition of Jet.com for $1.3 billion and Amazon’s acquisition of Whole Foods for $13.7 billion are symptomatic of an anxiety surrounding the future of retail. No superlatives have been spared to describe the trend, despite eCommerce accounting for no more than 9% of US retail spend, as of Q1 2017 (according to the Census Bureau). At its very core, this shift falls under the domain of Supply Chain Management; products and services are experiencing a wildly different lifecycle between the point of production and the point of consumption.  
-	The result is that retailers with lean, adaptive supply chains will win. The implicit imperative behind retail’s changing landscape is the need to predict and adapt to consumer habits, which makes for some supremely interesting Supply Chain questions. 
+
+The result is that retailers with lean, adaptive supply chains will win. The implicit imperative behind retail’s changing landscape is the need to predict and adapt to consumer habits, which makes for some supremely interesting Supply Chain questions. 
 
         Instacart Kaggle Competition: 
 Goal: Predict the products that will be in each user’s next order. 
 Evaluation Metric: Mean F1 Score
 Data: Over 3M orders from 206k customers
 
-Instacart is an online grocery and delivery app. Instacart’s shopping experience is driven by data scientists that curate the products that you see. The current $20 billion Americans spend at online groceries represents a meager 2.5% of the estimated $800 billion US grocery market, where perishable goods make predicting consumer buying habits a matter of life or death (figuratively, except for the produce). Demand Forecasting being a cornerstone of Supply Chain Management (SCM), I see this challenge as an opportunity to explore the domains that have driven my career thus far – eCommerce and SCM – through the lens of data science. 
+Instacart is an online grocery and delivery app. Instacart’s shopping experience is driven by data scientists that curate the products that you see. The current $20 billion Americans spend at online groceries represents a meager 2.5% of the estimated $800 billion US grocery market, where perishable goods make predicting consumer buying habits a matter of life or death (figuratively, except for the produce). 
+
+Demand Forecasting being a cornerstone of Supply Chain Management (SCM), I see this challenge as an opportunity to explore the domains that have driven my career thus far – eCommerce and SCM – through the lens of data science. 
 
 Please consult the competition website for more details:
 https://www.kaggle.com/c/instacart-market-basket-analysis
@@ -37,16 +40,22 @@ I created three notebooks with my initial findings, listed below. The notebooks 
 
 
 1.	Categories – General
+	
 	a.	This file explores products and product categories, including relationships between what Instacart calls ‘departments’ and ‘aisles’, which correspond roughly to ‘category’ and ‘sub-category’ respectively. 
+	
 	i.	https://github.com/RyanAlberts/Springbaord-Capstone-Project/blob/master/Instacart_EDA_Categories__General.ipynb
 2.	Assortment
+	
 	a.	This notebook dives a deeper into how a user’s product assortment (the particular combination of products they include in each order) affects reorder behavior. I attempted to explore how category affinities, basket sizes, product diversity, and order frequency  interact to influence user behavior. 
+	
 	i.	 https://github.com/RyanAlberts/Springbaord-Capstone-Project/blob/master/Instacart_EDA_DataStory_Assortment.ipynb
 3.	Engagement
+	
 	a.	This notebook incorporates the previous two and served as a launching pad for feature engineering. The notebook explores how user engagement of various sorts affects reorder behavior. It attempts to address issues like ‘New’ vs. ‘Seasoned’ customer order behavior, basket sizes and order frequency, and order cyclicality.
+	
 	i.	https://github.com/RyanAlberts/Springbaord-Capstone-Project/blob/master/Instacart_EDA_DataStory_Engagement.ipynb
-
-	Deep Dive – Exploring the Data: 
+	
+       Deep Dive – Exploring the Data: 
 	
 I did a deep-dive into user_id 1 in the Engagement notebook, which served a s the basis for the ‘EDA_FeatureSet’ Notebook. The data revealed some interesting trends. For any given customer, there is often a long-tail of products that are never reordered, and a small but formidable group of products that are consistently reordered. There was also a strong correlation between the ‘days_since_prior_order’ variable and the basket size and assortment of any particular order. The ‘EDA_FeatureSet’ Notebook provides the basis for a lot of feature engineering that I later developed for the machine-learning algorithms, and provided a cauldron for improving my skills with grouping, merging, indexing, and applying methods to various pd.DataFrame and Series objects. 
 
