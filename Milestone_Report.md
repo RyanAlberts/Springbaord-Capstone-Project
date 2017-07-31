@@ -1,10 +1,11 @@
+	Capstone Project Milestone Report
+
 July 15, 2017
 
 
 Springboard
 New York, NY
  
-	Capstone Project Milestone Report
  
 	Introduction: 
 Walmart’s acquisition of Jet.com for $1.3 billion and Amazon’s acquisition of Whole Foods for $13.7 billion are symptomatic of an anxiety surrounding the future of retail. No superlatives have been spared to describe the trend, despite eCommerce accounting for no more than 9% of US retail spend, as of Q1 2017 (according to the Census Bureau). At its very core, this shift falls under the domain of Supply Chain Management; products and services are experiencing a wildly different lifecycle between the point of production and the point of consumption.  
